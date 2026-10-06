@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+<<<<<<< HEAD
   "homepage": "https://ghost200323.github.io/Grand-Pyramids/",
   "scripts": {
     "dev": "vite",
@@ -10,6 +11,16 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+=======
+  
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  
+}
+
+>>>>>>> 55f9c8b7d0f8311d19903ea0c4757a4ccfb92e4b
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
