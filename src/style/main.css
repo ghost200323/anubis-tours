@@ -8,7 +8,7 @@ body {
 
 /* Top Header */
 .top-header {
-  background: url("/images/nile2.jpeg") center/cover no-repeat;
+  background: url("../assets/images/nile2.jpeg") center/cover no-repeat;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -32,6 +32,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1em 2em;
+  background: rgba(0, 0, 0, 0.548);
 }
 
 /* Logo */
@@ -52,17 +53,18 @@ body {
 }
 
 .logo-img {
-  width: 250px;
+  width: 180px;
   height: auto;
+  border-radius: 35px;
 }
 
 .logo-text {
   font-size: 2.5em;
-  color: #ffcc26;
+  color: #e64c04;
 }
 
 .logo-text span {
-  color: #fff;
+  color: #ece0e0;
 }
 
 /* Navbar */
@@ -99,14 +101,14 @@ body {
 
 .blog-page h2 {
   font-size: 2.2em;
-  color: #ffcc26;
+  color: #e64c04;
   margin-bottom: 1em;
   animation: glowText 2s infinite alternate;
 }
 
 .blog-page h3 {
   font-size: 1.5em;
-  color: #ffcc26;
+  color: #e64c04;
   margin-top: 2em;
 }
 
@@ -124,7 +126,7 @@ body {
 }
 
 .blog-page a:hover {
-  color: #ffcc26;
+  color: #e64c04;
 }
 
 /* WhatsApp buttons */
@@ -132,8 +134,8 @@ body {
   display: inline-block;
   margin: 0.5em;
   padding: 0.8em 1.5em;
-  background: linear-gradient(135deg, #dde003, #dfe205);
-  color: #030303;
+  background: linear-gradient(135deg, #e64c04, #e64c04);
+  color: #dad3d3;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -143,7 +145,7 @@ body {
 
 .blog-page .whatsapp-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+  box-shadow: 0 6px 20px rgba(223, 76, 7, 0.6);
 }
 
 /* Animations */
@@ -153,8 +155,8 @@ body {
 }
 
 @keyframes glowText {
-  from { text-shadow: 0 0 10px #ffcc26; }
-  to { text-shadow: 0 0 25px #ffcc26; }
+  from { text-shadow: 0 0 10px #e64c04; }
+  to { text-shadow: 0 0 25px #e64c04; }
 }
 
 .navbar a {
@@ -166,7 +168,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-  color: #ffcc26;
+  color: #ee6205;
   font-weight: bold;
 }
 .nav-link {
@@ -177,7 +179,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #ffcc26;
+  color: #e25f08;
   font-weight: bold;
 }
 .about-page {
@@ -193,14 +195,14 @@ body {
 
 .about-hero h2 {
   font-size: 2.5em;
-  color: #ffcc26;
+  color: #ec7608;
   margin-bottom: 0.5em;
   animation: glowText 2s infinite alternate;
 }
 
 @keyframes glowText {
-  from { text-shadow: 0 0 10px #ffcc26; }
-  to { text-shadow: 0 0 25px #ffcc26; }
+  from { text-shadow: 0 0 10px #e64c04; }
+  to { text-shadow: 0 0 25px #e64c04; }
 }
 
 .benefits-list {
@@ -219,7 +221,7 @@ body {
   content: "✔";
   position: absolute;
   left: 0;
-  color: #25d366;
+  color: #e64c04;
 }
 
 .leaders-grid {
@@ -252,7 +254,7 @@ textarea {
 }
 
 .review-buttons button {
-  background: linear-gradient(135deg, #25d366, #128c7e);
+  background: linear-gradient(135deg, #e64c04, #e64c04);
   color: #fff;
   border: none;
   padding: 0.8em 1.5em;
@@ -264,7 +266,7 @@ textarea {
 
 .review-buttons button:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+  box-shadow: 0 6px 20px rgba(209, 79, 4, 0.795);
 }
 
 /* Animations */
@@ -294,7 +296,7 @@ textarea {
 
 .hero-text h2 {
   font-size: 2.5em;
-  color: #ffcc26;
+  color: #db5609;
     opacity: 0;
   transform: translateY(-30px);
   animation: slideFadeDown 1s ease forwards;
@@ -328,7 +330,7 @@ textarea {
 .hero-carousel {
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 900px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -367,7 +369,7 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
   top: 50%;
   transform: translateY(-50%);
   background: rgba(0,0,0,0.5);
-  color: #ffcc26;
+  color: #d15005;
   border: none;
   padding: 0.5em 1em;
   cursor: pointer;
@@ -434,7 +436,7 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
 .price {
   font-family: monospace;
   text-decoration: none;
-  color:#ffcc26;
+  color:#cc6007;
   text-align: center;
   font-size: larger;
   font-weight: bolder;
@@ -443,7 +445,7 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
 .price2{
   font-family: monospace;
   text-decoration: none;
-  color:#ffcc26;
+  color:#cf6604;
   text-align: center;
   font-size: larger;
   font-weight: bolder;
@@ -457,7 +459,7 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
 .section-title {
   text-align: center;
   font-size: 2em;
-  color: #ffcc26;
+  color: #ca5009;
   margin: 1.5em 0;
 }
 
@@ -506,7 +508,7 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
 
 .tour-card h3 {
   margin: 0.8em 0 0.4em;
-  color: #ffcc26;
+  color: #d65002;
     transition: color 0.3s ease;
 }
 
@@ -578,7 +580,7 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
 }
 
 .tour-card:hover .price {
-  color: #ffcc26;
+  color: #e64c04;
   font-weight: bold;
 }
 
@@ -614,7 +616,7 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
 
 .tour-details h2 {
   font-size: 2.2em;
-  color: #ffcc26;
+  color: #e05c04;
   margin-bottom: 0.5em;
   opacity: 0;
   transform: translateY(-20px);
@@ -629,7 +631,7 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
 }
 
 .book-btn {
-  background-color: #ffcc26;
+  background-color: #d36308;
   color: #000;
   border: none;
   padding: 0.8em 1.5em;
@@ -643,10 +645,10 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
 }
 
 .book-btn:hover {
-  background-color: #e6b800;
+  background-color: #ffffff;
 }
 .book-btn:hover {
-  background-color: #e6b800;
+  background-color: #ffffff;
   transform: scale(1.05);
 }
 
@@ -683,7 +685,7 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
 
 .booking-details h2 {
   font-size: 2em;
-  color: #ffcc26;
+  color: #d44908;
   margin-bottom: 1em;
   opacity: 0;
   transform: translateY(-20px);
@@ -713,7 +715,7 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
 .booking-section:nth-of-type(3) { animation-delay: 1.5s; }
 
 .booking-section h3 {
-  color: #ffcc26;
+  color: #d64f01;
   margin-bottom: 0.5em;
 }
 
@@ -741,7 +743,7 @@ video.slide-video { width: 100%; height: 100%; object-fit: cover; }
 }
 
 strong {
-  color: #ffcc26;
+  color: #e05402;
 }
 
 /* Animations */
@@ -777,7 +779,7 @@ strong {
   outline: none;
 }
 .confirm-btn {
-  background: linear-gradient(135deg, #e9ec05, #f0ec02); /* WhatsApp green */
+  background: linear-gradient(135deg, #fc7405, #ff7504e3); /* WhatsApp green */
   color: #000000;
   font-family: monospace;
   font-weight: bolder;
@@ -792,7 +794,7 @@ strong {
 
 .confirm-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(211, 247, 11, 0.6);
+  box-shadow: 0 6px 20px rgba(209, 104, 6, 0.6);
 }
 
 /* Footer */
@@ -804,7 +806,7 @@ strong {
 }
 
 .site-footer p {
-  color: #ffcc26;
+  color: #fffbf9;
   font-size: 0.95em;
   margin: 0;
 }

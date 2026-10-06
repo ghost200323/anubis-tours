@@ -22,7 +22,7 @@ const BookingDetail: React.FC = () => {
 
     // Choose number based on contact
     const phone =
-      contact === "kenan" ? "201003020628" : "201122599762";
+      contact === "kenan" ? "201003020628" : "201149245818";
 
     // WhatsApp link
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
@@ -84,11 +84,11 @@ const BookingDetail: React.FC = () => {
         <label>
           <input
             type="radio"
-            value="mohmuad"
-            checked={contact === "mohmuad"}
-            onChange={() => setContact("mohmuad")}
+            value="Emad"
+            checked={contact === "Emad"}
+            onChange={() => setContact("Emad")}
           />
-          Mr. Mohmuad (+201122599762)
+          Mr. Emad (+201149245818)
         </label>
       </div>
 

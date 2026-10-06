@@ -3,8 +3,8 @@ import React, { useState } from "react";
 const AboutUs: React.FC = () => {
   const [review, setReview] = useState("");
 
-  const handleSendReview = (contact: "kenan" | "mohmuad") => {
-    const phone = contact === "kenan" ? "201003020628" : "201122599762";
+  const handleSendReview = (contact: "kenan" | "Emad") => {
+    const phone = contact === "kenan" ? "201003020628" : "201149245818";
     const message = `Client Review:\n\n${review}`;
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
@@ -14,9 +14,9 @@ const AboutUs: React.FC = () => {
     <section className="about-page">
       {/* Hero Section */}
       <div className="about-hero fade-slide-up">
-        <h2>🌍 Welcome to Anubis Tours</h2>
+        <h2>Welcome to Grand Pyramids</h2>
         <p>
-          Launched in 2020, Anubis Tours has redefined how travelers experience
+          Launched in 2026, Grand Pyramids has redefined how travelers experience
           Egypt. Our mission is to blend ancient wonders with modern comfort —
           making every journey unforgettable.
         </p>
@@ -38,16 +38,16 @@ const AboutUs: React.FC = () => {
         <h3>👥 Meet Our Leaders</h3>
         <div className="leaders-grid">
           <div className="leader-card">
-            <h4>Mr. Kenan</h4>
+            <h4>Mr. Kenan</h4>  
             <p>
-              CEO, Developer, and Manager. Oversees the website, operations, and
+              Developer, and Manager. Oversees the website, operations, and
               brings deep knowledge of ancient Egyptian history.
             </p>
           </div>
           <div className="leader-card">
-            <h4>Mr. Mohmuad</h4>
+            <h4>Mr. Emad</h4>
             <p>
-              Manager & Tour Leader. Organizes operations, manages tour leaders,
+              CEO, Manager & Tour Leader. Organizes operations, manages tour leaders,
               and ensures client feedback shapes our future.
             </p>
           </div>
@@ -71,8 +71,8 @@ const AboutUs: React.FC = () => {
           <button onClick={() => handleSendReview("kenan")}>
             Send to Mr. Kenan
           </button>
-          <button onClick={() => handleSendReview("mohmuad")}>
-            Send to Mr. Mohmuad
+          <button onClick={() => handleSendReview("Emad")}>
+            Send to Mr. Emad
           </button>
         </div>
       </div>

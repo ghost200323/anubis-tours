@@ -1,15 +1,21 @@
 import React, { useState, useEffect } from "react";
+import guestsImg from "../assets/images/am1.jpeg";
+import campImg from "../assets/images/am6.jpeg";
+import guest2Img from "../assets/images/am3.jpeg";
+import cruImg from "../assets/images/am4.jpeg";
+
+import amd5 from "../assets/images/am5.jpeg";
+import amd6 from "../assets/images/am7.jpeg";
+import desertVid from "../assets/images/desert.mp4";
 
 const slides = [
-  {
-    type: "image",
-    src: "public/images/Guests.jpeg",
-    className: "slide-guests",
-  },
-  { type: "image", src: "public/images/camp.jpeg", className: "slide-camp" },
-  { type: "image", src: "public/images/guest2.jpg", className: "slide-guest2" },
-  { type: "image", src: "public/images/cru.jpeg", className: "slide-cru" },
-  { type: "video", src: "public/images/desert.mp4", className: "slide-video" },
+  { type: "image", src: guestsImg, className: "slide-guests" },
+  { type: "image", src: campImg, className: "slide-camp" },
+  { type: "image", src: guest2Img, className: "slide-guest2" },
+  { type: "image", src: cruImg, className: "slide-cru" },
+  { type: "image", src: amd5, className: "slide-amd5" },
+  { type: "image", src: amd6, className: "slide-amd6" },
+  { type: "video", src: desertVid, className: "slide-video" },
 ];
 
 const HeroCarousel: React.FC = () => {

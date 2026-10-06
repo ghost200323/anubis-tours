@@ -7,11 +7,11 @@ const Blog: React.FC = () => {
       <p>
         Instagram:{" "}
         <a
-          href="https://www.instagram.com/anubislegnacytours/"
+          href="https://www.instagram.com/3mad_ezzat5?stkn=aXpxbGN3ZjJ0aDkz"
           target="_blank"
           rel="noopener noreferrer"
         >
-          @anubislegnacytours
+          @grandpyramids
         </a>
       </p>
 
@@ -24,9 +24,9 @@ const Blog: React.FC = () => {
       </button>
       <button
         className="whatsapp-btn"
-        onClick={() => window.open("https://wa.me/201122599762", "_blank")}
+        onClick={() => window.open("https://wa.me/201149245818", "_blank")}
       >
-        Mr. Mohmuad (+201122599762)
+        Mr. Emad (+201149245818)
       </button>
     </section>
   );
